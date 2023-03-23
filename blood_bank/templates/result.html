@@ -1,0 +1,8 @@
+{% extends 'index.html' %}
+
+{% block content %}
+{% for doner in doners %}
+<h2>{{doner.blood_group}}</h2>
+<h2>{{doner.contact_no}}</h2>
+{%endfor%}
+{% endblock %}
